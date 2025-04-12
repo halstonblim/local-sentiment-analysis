@@ -1,7 +1,3 @@
-Here’s your updated README with the new CLI script and revised project structure, while keeping your original tone and goals:
-
----
-
 # Reddit Sentiment Monitor
 
 This project tracks Reddit sentiment over time for specific subreddits or brands, starting with `r/apple`. It uses the Reddit API to pull top posts, applies a pre-trained sentiment analysis model, and visualizes sentiment trends. The goal is to eventually detect shifts (drift), build a real-time dashboard, and deploy the tool publicly.
