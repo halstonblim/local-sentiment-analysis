@@ -22,7 +22,7 @@ This project tracks Reddit sentiment over time for specific subreddits or brands
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ### CLI Script (recommended)
 ```bash
