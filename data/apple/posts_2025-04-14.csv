@@ -1,0 +1,31 @@
+subreddit,created_at,retrieved_at,type,text,score,num_comments,post_id,url,logit_negative,logit_positive,predicted_sentiment,predicted_label,model_version
+apple,2025-04-14 05:38:56-05:00,2025-04-14 17:22:20.137538-05:00,post,"Foldable iPhone Resolutions Leak With Under-Screen Camera Tipped
+
+",436,138,1jyvqi8,https://www.macrumors.com/2025/04/14/iphone-fold-display-resolutions-cameras/,3.9115335941314697,-3.213576316833496,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+apple,2025-04-14 11:19:50-05:00,2025-04-14 17:22:20.137538-05:00,post,"iPhone 16e Helps Apple Take Q1 2025 Top Spot in Global Smartphone Market
+
+",424,90,1jz2xrw,https://www.macrumors.com/2025/04/14/apple-q1-smartphone-market-top-spot/,-2.8911826610565186,2.9539401531219482,1,positive,distilbert-base-uncased-finetuned-sst-2-english
+apple,2025-04-14 09:05:38-05:00,2025-04-14 17:22:20.137538-05:00,post,"Apple celebrates 10 years of Activity Rings with special Global Close Your Rings Day limited-edition award
+
+From Newsroom:
+
+“On April 24, Apple Watch users are encouraged to do something they love, push themselves further, or try something new, and then share what they did using #CloseYourRings. Users who close all three Activity rings will earn a limited-edition award, plus 10 animated stickers and an animated badge for Messages.” ⌚️",259,20,1jyzp05,https://www.apple.com/newsroom/2025/04/get-active-with-apple-watch/,-2.122454881668091,2.2392489910125732,1,positive,distilbert-base-uncased-finetuned-sst-2-english
+apple,2025-04-14 11:59:56-05:00,2025-04-14 17:22:20.137538-05:00,post,"Smartphone tariffs are coming back in ‘a month or two,’ says Trump admin
+
+",134,1,1jz3wsi,https://www.theverge.com/news/647811/smartphone-laptop-chips-tariffs-returning-semiconductor-sector-tariffs#comments,2.200582504272461,-1.8528677225112915,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+apple,2025-04-14 05:01:53-05:00,2025-04-14 17:22:20.137538-05:00,post,"Daily Advice Thread - April 14, 2025
+
+Welcome to the Daily Advice Thread for /r/Apple. This thread can be used to ask for technical advice regarding Apple software and hardware, to ask questions regarding the buying or selling of Apple products or to post other short questions.
+
+Have a question you need answered? Ask away! Please remember to adhere to our rules, which can be found in the sidebar.
+
+Join our Discord and IRC chat rooms for support:
+
+* [Discord](https://discord.gg/apple)
+* [IRC](https://kiwiirc.com/client/irc.snoonet.org/apple?nick=CHANGE_ME)
+
+Note: Comments are sorted by /new for your convenience.
+
+[Here is an archive](https://www.reddit.com/r/apple/search?q=author%3A%22AutoModerator%22+title%3A%22Daily+Advice+Thread%22+or+title%3A%22Daily+Tech+Support+Thread%22&sort=new&t=all) of all previous Daily Advice Threads. This is best viewed on a browser. If on mobile, type in the search bar \[author:""AutoModerator"" title:""Daily Advice Thread"" or title:""Daily Tech Support Thread""\] (without the brackets, and including the quotation marks around the titles and author.)
+
+**The Daily Advice Thread is posted each day at 06:00 AM EST (**[Click HERE for other timezones](https://www.wolframalpha.com/input/?i=6+AM+USA+EST)**) and then the old one is archived.** It is advised to wait for the new thread to post your question if this time is nearing for quickest answer time.",1,18,1jyv6kj,https://www.reddit.com/r/apple/comments/1jyv6kj/daily_advice_thread_april_14_2025/,1.9658865928649902,-1.685302972793579,0,negative,distilbert-base-uncased-finetuned-sst-2-english

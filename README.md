@@ -1,84 +1,94 @@
-# Reddit Sentiment Monitor
+# Daily Reddit Sentiment Analyzer
 
-This project tracks Reddit sentiment over time for specific subreddits or brands, starting with `r/apple`. It uses the Reddit API to pull top posts, applies a pre-trained sentiment analysis model, and visualizes sentiment trends. The goal is to eventually detect shifts (drift), build a real-time dashboard, and deploy the tool publicly.
+A modular, config-driven tool for daily sentiment analysis of Reddit posts.
 
----
+## Features
 
-## Current features 
+- Daily scraping of Reddit posts from specified subreddits
+- Sentiment analysis using Hugging Face models
+- Configurable through YAML
+- Structured data storage
+- Comprehensive logging
+- Rate limit awareness
+- Dry-run mode for testing
 
-- **Reddit Scraper CLI**:
-  - Modular Python script: `sentiment_tracker.py`
-  - Pulls top posts based on user-defined `subreddit`, `time_filter`, and `limit`
-  - Stores relevant metadata: `created_at`, `retrieved_at`, `title`, `selftext`, `score`, `num_comments`
-  - Supports CLI arguments or config file for automation
-  - Exports `.csv` of scraped + scored data
-  - Saves final sentiment trend plot with identifying filename
-  - Logs current Reddit API rate limit after each run
+## Installation
 
-- **Sentiment Scoring**:
-  - Uses Hugging Face model [`distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english)
-  - Scores each post with `positive` or `negative`
-  - Aggregates sentiment per month and plots trend over time
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Create a `.env` file with your Reddit API credentials:
+   ```
+   REDDIT_CLIENT_ID=your_client_id
+   REDDIT_CLIENT_SECRET=your_client_secret
+   REDDIT_USER_AGENT=your_user_agent
+   ```
 
----
+## Configuration
 
-## How to Run
+Edit `config.yaml` to specify:
+- Subreddits to track
+- Post limits
+- Output directory
+- Model configuration
+- Timezone
 
-### CLI Script (recommended)
-```bash
-python sentiment_tracker.py --subreddit apple --time_filter year --limit 1000
+Example config:
+```yaml
+subreddits:
+  - name: apple
+    include_comments: false
+    post_limit: 50
+  - name: GooglePixel
+    include_comments: false
+    post_limit: 30
+
+output_dir: "data"
+model_name: "distilbert-base-uncased-finetuned-sst-2-english"
+timezone: "US/Central"
 ```
 
-This will:
-- Scrape the top posts from `r/apple`
-- Analyze sentiment
-- Output:
-  - `data/apple_tf-year_n-1000_<timestamp>.csv`
-  - `data/apple_tf-year_n-1000_<timestamp>.png`
+## Usage
 
-### Optional: Config File
-You can also define a config `.yaml` file (coming soon) for automation or scheduled runs.
-
----
-
-## Example output
-
-### Sentiment prediction
-
-Below is a sample output of a negative sentiment prediction of a post created May 2024:
-
-| subreddit | created<br>at      | retrieved<br>at     | type | text               | score | num<br>comments | logit<br>negative | logit<br>positive | predicted<br>sentiment | predicted<br>label |
-|-----------|--------------------|----------------------|------|--------------------|--------|------------------|--------------------|--------------------|-------------------------|---------------------|
-| apple     | 2024-05-16 17:09   | 2025-04-12 11:12     | post | iMessage is Down   | 1761   | 205              | 4.49               | -3.69              | 0                       | negative            |
-
-### Trend analysis
-
-Below is a sample output showing sentiment trend in `r/apple` based on top posts from the past year:
-
-![Sentiment trend chart for r/apple](data/apple_tf-year_n-1000_2025-04-12.png)
-
-The x-axis shows each month, and the y-axis is the **average sentiment score** (1 = positive, 0 = negative).
-
----
-
-## Project Structure
-
+Run the script:
 ```bash
-.
-├── sentiment_tracker.py           # Main CLI pipeline for scraping, scoring, and plotting
-├── data/                          # Stores CSV and PNG outputs
-│   └── apple_tf-year_n-1000_*.csv
-│   └── apple_tf-year_n-1000_*.png
-├── notebooks/                     # Legacy prototype notebooks
-│   └── get_reddit_posts.ipynb     
-│   └── analyze_sentiment.ipynb
-├── README.md                      # You're reading it
+python src/main.py
 ```
 
----
+Options:
+- `--config`: Specify a different config file (default: config.yaml)
+- `--dry-run`: Run without saving files
 
-## Coming Soon
-- Daily automation & cron-compatible config
-- Dashboard deployment (Streamlit or Grafana)
-- LLM-based custom sentiment labels
-- Drift detection alerts
+## Output Structure
+
+```
+/data
+  /subreddit_name
+    posts_YYYY-MM-DD.csv
+/logs
+  reddit_sentiment_YYYY-MM-DD_HH-MM-SS.log
+```
+
+## Data Format
+
+CSV files contain:
+- Post metadata (title, score, etc.)
+- Text content
+- Sentiment scores and labels
+- Model version
+- Retrieval timestamp
+
+## Logging
+
+A single log file is created for each script run in the `/logs` directory, containing:
+- Processing start/end times
+- Number of posts processed for each subreddit
+- Rate limit information
+- Any errors encountered
+- Both file and console output
+
+## License
+
+MIT

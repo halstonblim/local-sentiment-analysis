@@ -1,0 +1,284 @@
+subreddit,created_at,retrieved_at,type,text,score,num_comments,post_id,url,logit_negative,logit_positive,predicted_sentiment,predicted_label,model_version
+GooglePixel,2025-04-14 11:19:01-05:00,2025-04-14 17:22:21.367580-05:00,post,"Why is Google the only manufacturer that allows bootloader unlocking on their phones?
+
+It is kind of scary to think about what would happen if Google decides to not allow bootloader unlock. They don't have to allow it but they allow it and they even make the process easier for us. Compared to other phones which are completely locked down, Pixels can be fully under user's control. This seems like an old concept now because users increasingly don't have control over the devices they buy. I think people at Google are keeping the bootloader unlock available to users because they know what it will mean if they remove it. It is such a shame that people in the open source community go out their way to support Apple which is hell-bent on taking away user freedom as much as possible. But I digress. Why do you think only Google allows bootloader unlocking on their phones?",107,88,1jz2x1c,https://www.reddit.com/r/GooglePixel/comments/1jz2x1c/why_is_google_the_only_manufacturer_that_allows/,2.745958089828491,-2.316640853881836,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 15:01:10-05:00,2025-04-14 17:22:21.367580-05:00,post,"Google Pixel 9a - a very detailed report
+
+This is my very early experience report of the Google Pixel 9a.
+First, let me say that I’ve been a long-time fan of Google’s A-series and have previously owned the Pixel 3a, 6a, 7a, and 8a.
+The 6-series was a major revolution, as is well known, and the philosophy introduced with it has been continued by Google over the past few years. The changes from the 8a to the 7a and from the 7a to the 6a were rather incremental. This time, however—and I’ll say this upfront—it seems to be a bit different. But let’s go step by step:
+
+
+Display:
+
+Today was a very sunny day, which gave me the perfect opportunity to test the highly advertised brightness of the display in outdoor readability. The claimed 2700 nits are not just a marketing gimmick like with many other manufacturers—they seem quite realistic. The Pixel 9a’s display might be the brightest I’ve ever used. Even in direct sunlight, everything remains perfectly readable. Viewing angles, brightness distribution, and color reproduction all seem excellent to me. Color tuning is kept very simple, allowing you to choose between ""adaptive"" (more saturated) and ""natural"". Adaptive is the default, and even that feels pleasantly true to life and not overly saturated, unlike what you often see with many Asian smartphone brands. Google manages to make realism look appealing and not dull—similar to what they achieve with their cameras.
+The 120Hz refresh rate (not enabled by default!) makes everything feel super smooth, though that's something we've come to expect from all Android smartphones by now. It's worth noting that the brightness sensor is a bit more conservative than on the Pixel 8a, though I personally don’t find that annoying—it still works within a reasonable range. The thick display bezels are at least symmetrical, even though they really stand out compared to the competition. This has been the case for all previous A-series models. Honestly, though, you get used to it very quickly, and I only notice them if I consciously look for them.
+
+
+Performance:
+
+In benchmarks, Google's Tensor processors generally lag behind the competition. With a flagship like the Pixel 9 Pro, that's a valid criticism given the price—but not so much with a mid-range phone. Compared to similarly priced devices like the Nothing Phone 3a Pro, Samsung Galaxy A56, or Redmi Note 13 Pro Plus, the Pixel 9a actually comes out on top. Of course, Xiaomi’s Poco sub-brand still offers more pure performance in the same price range, but this comes at the cost of things like camera quality or software support.
+For most people, day-to-day performance is the key indicator—and here, the Pixel 9a excels. I personally don’t notice any difference compared to phones that cost twice as much. Everything runs buttery smooth. That was also true for its predecessor.
+
+
+Camera:
+
+What performance is to Poco smartphones, the camera is to Pixel phones. On paper, the specs looked a bit worrying at first, since the main sensor is considerably smaller than on the Pixel 8a. But with Pixels, camera excellence comes from software optimization rather than hardware. Other manufacturers often use bigger, better sensors—but it’s Google's processing that makes the difference.
+I’ve taken around 50 pictures so far in all kinds of conditions. Overall, I feel the camera performance is even better than on the Pixel 8a. The smaller sensor is compensated by a larger aperture, allowing enough light in. Dynamic range, sharpness, exposure, and color accuracy are all top-tier. It’s clear that the Pixel 9a will again set the standard for mid-range cameras. Compared to the Pixel 8a, photos appear a bit more natural and slightly less saturated. The 8a also produced natural images, but sometimes went a bit overboard with saturation. Even in low light, the results are surprisingly good.
+The ultra-wide and selfie cameras obviously can’t quite match the main camera, but the quality gap between the lenses is—emphasis on this—significantly smaller than with most other brands.
+
+
+Software:
+
+Besides the camera, the clean and tidy software is a hallmark of Pixel phones. That’s the case here too. Everything feels well thought out and refreshingly simple. With Samsung’s OneUI and other heavier skins, the sheer number of settings can make things overwhelming—but not here. Only Nothing and Motorola offer similar simplicity, and since Google develops Android, their version feels the smoothest. Overall, the software experience on a Pixel is the best on the market—even compared to iPhones.
+The built-in features are well designed, functional, and aside from a few gimmicks, mostly practical.
+
+
+Battery:
+
+Pixel phones tend to adapt to the user over time, meaning battery life often improves significantly within the first days or weeks.
+Since I have experience with Pixel devices, I think I can already give a tentative subjective verdict: battery life seems noticeably improved compared to the predecessor. I’m pretty sure even power users will be satisfied. The 23W charging speed is definitely outdated and quite slow, but it probably won’t be a big deal—one charge easily gets you through the day, and most people charge overnight anyway.
+
+
+Build & Feel:
+
+The aluminum frame gives the device a premium feel. The matte plastic back doesn’t feel cheap either—it’s still plastic, but very well executed. The IP69 certification reinforces the impression of high build quality. The new angular design is a matter of taste, but it doesn’t bother me—edges are still rounded and pleasant to hold. The noticeably low weight compared to other smartphones is a big plus. Size-wise, it’s a good compromise between a large screen and a device that isn’t unwieldy.
+The discreet camera module is a step forward—it doesn’t stick out like it does on nearly every other modern phone, which is nice when using it on a flat surface. The overall look sparked skepticism at first since it breaks with the recent Pixel design tradition—but to me, it still feels like a true Pixel phone. It hasn’t lost its identity at all, and I personally think it’s a beautiful device. Especially the ""Iris Blue"" color I picked—it’s gorgeous.
+
+
+Reception & Other Aspects:
+
+Unfortunately, it doesn't use the same modem as the Pixel 9 or 9 Pro. Still, I’ve never experienced connection issues. Heat management is also improved compared to the Pixel 8a. It got a bit warm during setup, but in a completely acceptable way—and since then, even under heavy use, the phone hasn’t noticeably heated up.
+Call quality is excellent, likely thanks to Google’s AI enhancements. My girlfriend could hear me clearly during a call from a crowded McDonald's. The speakers get loud enough, though they start to distort a bit at around 70–80%. They’re not outstanding, but they’re not bad either—just what you’d expect at this price point.
+
+
+Conclusion:
+
+Most of the time, it’s hard to believe this is a mid-range device. So much about the Pixel 9a feels premium—the camera, the display, the everyday performance, and the software. The Pixel 9’s price has dropped significantly, narrowing the gap—but depending on the region, pre-order bonuses for the 9a help offset that. In the coming weeks, the price difference will likely widen again, and the 9a will have a stronger case.
+There really aren’t many compromises compared to the Pixel 9, which I also tested briefly. In daily use, the experience feels practically the same. The Pixel 9’s camera is slightly better, but 99% of people view their photos on a smartphone or maybe a tablet, where the difference is negligible—making it easy to justify saving money. The speakers aren’t amazing, but most people use headphones anyway, and they’re more than enough for podcasts or calls.
+Most people use a case, so the plastic back won’t even be noticeable two minutes after unboxing. And even if you don’t, it still feels good in hand.
+The modem has been criticized, but I haven’t had any issues—same with the Pixel 8a. The overheating issues seem to be gone for good.
+Everyday performance is nearly identical to the Pixel 9 (which has more RAM, but that seems more relevant for future AI features—I noticed no difference in daily use). The display is just as bright, and there are probably only minor differences in a direct comparison. Battery life will likely be better than on the Pixel 9—and that’s more important to most people than a slightly better camera or speakers.
+All in all, the Pixel 9a might actually be a better choice for many, especially if you don’t notice the few trade-offs in everyday use, save some money, and even get better battery life.
+",34,15,1jz8fxn,https://www.reddit.com/r/GooglePixel/comments/1jz8fxn/google_pixel_9a_a_very_detailed_report/,-2.5318517684936523,2.5886876583099365,1,positive,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 00:24:43-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel 9A released in europe today?
+
+Hi,
+
+I am trying to buy the new 9A but on the google website i am unable to purchase it. 
+
+Does anyone know at what time new phones usually are released?
+
+",27,13,1jyrcrh,https://www.reddit.com/r/GooglePixel/comments/1jyrcrh/pixel_9a_released_in_europe_today/,4.198273658752441,-3.394808053970337,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 10:37:55-05:00,2025-04-14 17:22:21.367580-05:00,post,"Google Pixel 9a hands-on review
+
+",21,3,1jz1wnf,https://m.gsmarena.com/google_pixel_9a_handson-review-2821.php,-0.23083634674549103,0.2793194055557251,1,positive,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 09:29:09-05:00,2025-04-14 17:22:21.367580-05:00,post,"Is anyone else having issues with their weather app?
+
+Hitherto, my weather app has been perfectly fine. However, as of about last month, whenever I try to open it, a pop up displays saying that I don't have access to the service. I'm not sure if it's a pixel problem or something to do with the way my account is set up.",13,6,1jz08m0,https://www.reddit.com/r/GooglePixel/comments/1jz08m0/is_anyone_else_having_issues_with_their_weather/,3.1544084548950195,-2.580625534057617,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 09:27:11-05:00,2025-04-14 17:22:21.367580-05:00,post,"Google Pixel 9A - ""Real Review"" / Spigen Case Lineup
+
+",17,6,1jz06x6,https://youtube.com/watch?v=TG4GtZYbtR8&si=dixwfIGzBlFDiZcH,-1.5697683095932007,1.521332025527954,1,positive,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 07:38:51-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel 9a and the discounts you get across Europe
+
+The Pixel 9a is released today in Europe and the Google Store gives discounts or gifts, depending on where you live in Europe. I made an overview as you might want to order in a neighbouring country (and you have a delivery address there).
+
+Seems like Google loves the French the most as they get the best deal if you ask me. Too bad Google doesn't let you choose between a gift or trade-in discount or even store credit.
+
+  
+NL (Netherlands) & BE (Belgium): & FI (Finland):
+
+* Free Google TV Streamer
+* 25 euro store credit
+
+DE (Germany) & AT (Austria):
+
+* Free Pixel Buds a-series
+* 50 euro additional trade-in value
+
+FR (France):
+
+* 150 euro additional trade-in value
+* 50 euro store credit 
+
+IT (Italy) & ES (Spain):
+
+*  150 euro additional trade-in value
+* 25 euro store credit 
+
+ PT (Portugal):
+
+* 175 euro store credit
+
+\*just comparing countries that have the Euro and sell directly through the Google Store",10,2,1jyxttb,https://www.reddit.com/r/GooglePixel/comments/1jyxttb/pixel_9a_and_the_discounts_you_get_across_europe/,2.2219300270080566,-1.8854246139526367,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 01:25:33-05:00,2025-04-14 17:22:21.367580-05:00,post,"Passwords on keyboard
+
+I would say 9/10 times when I go to login to something on my phone the top bar has the passwords icon that I can use. But that other time there is nothing and no way to open up to select a password for auto fill. Is there a solution I'm missing or something? ",8,9,1jys8m2,https://www.reddit.com/r/GooglePixel/comments/1jys8m2/passwords_on_keyboard/,4.428010940551758,-3.538334608078003,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-13 22:22:24-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel 9 only charges fast when off
+
+Everytime I charge my phone, I have to turn it off for it to be getting 20w+. 
+
+If it's on, it'll be charging about 6w. SO SLOW. 
+
+I'm using the official charger. It happens in all sockets, I've tried at several places outside even my home. 
+
+My phone also gets hot kind of often. Not when streaming, but if I play a game, it's hot in five minutes. 112F 
+
+Having to charge it while off, isn't that big a deal. But it makes me wonder if my battery is broken and going to explode someday. 
+
+This is a new Pixel 9 that I bought four months ago. ",7,6,1jypdiv,https://www.reddit.com/r/GooglePixel/comments/1jypdiv/pixel_9_only_charges_fast_when_off/,3.131324529647827,-2.5998587608337402,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 13:11:58-05:00,2025-04-14 17:22:21.367580-05:00,post,"Anyone else receive a delayed alert from Google Shake Alert this morning?
+
+Did anyone else receive an alert from Google Shake regarding the 5.4 earthquake that occured at 10:04 A.M. this morning in Southern California?
+
+The alert was a waste of time at didn't appear on my Pixel 7 until 10:40 A.M., 36 minutes AFTER the earthquake occured.
+
+I'm wondering why there was a delay for such a time sensitive alert?
+
+I plan on now installing the My Shake app to see if it might be more reliable.",6,6,1jz5ozf,https://www.reddit.com/r/GooglePixel/comments/1jz5ozf/anyone_else_receive_a_delayed_alert_from_google/,4.336308479309082,-3.530080556869507,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 09:10:56-05:00,2025-04-14 17:22:21.367580-05:00,post,"Slow or failing playstore downloads
+
+Anybody else getting app updates failing recently? Seems random but I keep getting it. I've just swapped my phone this weekend to the 9a but I'm sure I was getting these last week on my 6a.",5,4,1jyztep,https://www.reddit.com/r/GooglePixel/comments/1jyztep/slow_or_failing_playstore_downloads/,3.5322604179382324,-2.863781213760376,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 01:44:54-05:00,2025-04-14 17:22:21.367580-05:00,post,"Anyone going caseless? Or used to
+
+Anyone going caseless like me? Or used to? ",4,67,1jysid1,https://www.reddit.com/r/GooglePixel/comments/1jysid1/anyone_going_caseless_or_used_to/,3.687556266784668,-3.051254987716675,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 04:58:19-05:00,2025-04-14 17:22:21.367580-05:00,post,"Annoying or weird behaviour on unlock
+
+Hi, 
+
+Any advice please. I've noticed that I always have some notifications on lock screen and there are further notifications queued up after them... When I unlock with thumb or face, not sure which gets there first, my thumb is often picking one of these junk notifications and talking me to that instead of what I had on the phone before. It's annoying. Any idea how to fix?",3,0,1jyv4li,https://www.reddit.com/r/GooglePixel/comments/1jyv4li/annoying_or_weird_behaviour_on_unlock/,4.28515100479126,-3.417081117630005,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 00:07:22-05:00,2025-04-14 17:22:21.367580-05:00,post,"Photo saving issues
+
+Hi Everyone,
+
+Iv seen others also have this issue and looking for advice.
+
+My partner has a pixel 6 pro, every time shes attended an event and taken video or photos they vanish, i had a look into it and shes not the only one whos has the issue but doesnt seem to be a fix to save photos locally first.
+
+She loves her pixel phone and id like to swap back to them but its a bit of a deal breaker worrying about this issue, if anyone knows what can be done or if there is a fix?",3,1,1jyr3ll,https://www.reddit.com/r/GooglePixel/comments/1jyr3ll/photo_saving_issues/,3.049669027328491,-2.563044786453247,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-13 23:05:58-05:00,2025-04-14 17:22:21.367580-05:00,post,"Not receiving text from IPhones (Intermittent)
+
+Context Phone: Pixel 7 Location: New Zealand Provider: Skinny
+
+I notice this happening back in December last year when I followed up with a acquaintance I was texting and they told me they received my messages fine and it says sent on their IPhone but I did not receive their messages.
+
+This was previously an isolated incident that I thought was some weird quirk.
+
+However I now have at least 5 distinct users that I faced this issue with.
+
+I have tried restarting my phone, clearing the messages cache and storage, removing restarting and reinserting the SIM Card, as well as toggling RCS chat to only use SMS.
+
+I have also always been an Android user and have checked the below URL to see if it was something related to my number being tied to IMessage but that doesn't seem to be the case.
+
+https://selfsolve.apple.com/deregister-imessage/
+
+This is getting quite frustrating and I need to be able to rely on my phones to send and receive messages reliably. Have any of you faced this issue before?
+
+I've just updated my phone to the latest April update but I cannot confirm if this has fixed the issue other than relying on asking those 5 people to send me a text again.",3,0,1jyq4f3,https://www.reddit.com/r/GooglePixel/comments/1jyq4f3/not_receiving_text_from_iphones_intermittent/,2.8726179599761963,-2.382962942123413,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 16:36:32-05:00,2025-04-14 17:22:21.367580-05:00,post,"Fixing the Spigen 'Rugged Armor' 9a case to work with Google Stand
+
+[https://ibb.co/HTrzRpDF](https://ibb.co/HTrzRpDF)
+
+[https://ibb.co/F4P4z0TW](https://ibb.co/F4P4z0TW)
+
+Found with my Stand would no longer happily charge the 9a and up to this point had happily charged two earlier pixels and don't want to send it to landfill. 9a by itself charges fine. Stripped out the magsafe magnets from behind the label of the case and now charging fine",2,1,1jzar1y,https://www.reddit.com/r/GooglePixel/comments/1jzar1y/fixing_the_spigen_rugged_armor_9a_case_to_work/,1.8263801336288452,-1.4630126953125,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 12:14:18-05:00,2025-04-14 17:22:21.367580-05:00,post,"RCS Delay
+
+Back to a Pixel device from an iPhone.
+
+Got everything switched over, turned off iMessage but I get these weird random times where sending an RCS message to my wifes iPhone the first message goes through fine. I see two check marks and then any subsequent messages give me the tiny stop watch. If I then leave the conversation and come back the pending messages have disappeared.
+
+iPhone fully updated and literally sitting next to each other. Have tried on and off wifi as well. 
+
+Is this just how it is using RCS?",2,3,1jz49nk,https://www.reddit.com/r/GooglePixel/comments/1jz49nk/rcs_delay/,3.13484263420105,-2.587939977645874,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 10:59:41-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel 8 turning off out of nowhere
+
+A few days ago my phone started behaving weirdly. It just randomly was turned off when I reached for it in my gym bag, when I came home from riding my bicycle or whatever. Just a few minutes ago I went to my mailbox where I have to squat to reach for it, got a text message in the second I did it and it was turned off when stood up to look at the text. So I figured it could be squatting, as weird as it sounds. I redid a squat with my phone in my front pocket and it turned off. So my question is, has anyone experienced this behavior as well and does anyone know how to fix it or if it's even possible? I got my phone on a contract so I could get a replacement, but I'm happy with it and don't necessarily have to get one. My phone has so damages whatsoever and it's always in a case. ",2,0,1jz2fsz,https://www.reddit.com/r/GooglePixel/comments/1jz2fsz/pixel_8_turning_off_out_of_nowhere/,3.9673032760620117,-3.2286577224731445,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 10:33:36-05:00,2025-04-14 17:22:21.367580-05:00,post,"Wifi Notification Issues Pixel 9 pro XL
+
+Hi,
+For the past two weeks I have been having issues.
+While on wifi, I am not receiving any app notifications, WhatsApp/ Instagram/ gmail new message notifications and new messages. I have to keep on opening WhatsApp/Instagram/gmail every single time to receive new msgs. 
+But the funny part is, when i switch to mobile network, everything is fine. I receive all the notifications, messages everything.
+
+I have a pixel 8a with me which is fine and my wife's iPhone is also fine all of which are working fine connected to the WiFi. Its only ny device which is having this issue. Tried every possible wifi and phone fix. Nothing worked.
+Its really interfering with my work.
+Anyone having this issue or having any solutions??",2,1,1jz1syo,https://www.reddit.com/r/GooglePixel/comments/1jz1syo/wifi_notification_issues_pixel_9_pro_xl/,-2.3731062412261963,2.5405433177948,1,positive,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 01:00:02-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel weather error
+
+Hello, it has happened a few times recently that the appearance of the Pixel Weather app has changed to an older, less modern-looking version, but when I tried to open it again it opened a new interface. What is happening?",2,1,1jyrvhv,https://www.reddit.com/r/GooglePixel/comments/1jyrvhv/pixel_weather_error/,2.436561107635498,-2.0526771545410156,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 15:19:03-05:00,2025-04-14 17:22:21.367580-05:00,post,"Google Pixel 6 microphone no longer working after a screen replacement
+
+So I've seen this issue come up a few times online and it's very strange. I cracked my phone and yesterday I had the screen replaced. I was thrilled! Until I tried to use my Google Assistant and realized that my microphone doesn't work. I thought that the people who repaired my screen probably screwed up something inside my phone but they tell me that would be near impossible. They don't touch the inside of the phone when replacing a screen. I look this up and many other pixel 6 owners have a similar issue.
+
+I can only call someone when my phone is connected to a headset or in my car via Bluetooth. Important to note, Google Assistant and other microphone apps still do not work even with a headset on. Taking a video does pick up my voice, which is so far the weirdest part to me. 
+
+I've tried cleaning the mic, resetting my phone and resetting app permissions. Nothing seemed to work. Any ideas on what I should do to fix this?",1,0,1jz8w4s,https://www.reddit.com/r/GooglePixel/comments/1jz8w4s/google_pixel_6_microphone_no_longer_working_after/,2.9858851432800293,-2.5182044506073,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 15:15:10-05:00,2025-04-14 17:22:21.367580-05:00,post,"Frozen screen but rotated and volume buttons worked
+
+I just updated the Google Play system update and then my screen would not respond.  The fingerprint reader unlocked the locked screen and it would rotate when spun around, and the volume buttons worked.  But no other screen input was possible after several restarts.  I then lightly taped the Pixel 9 Pro XL on the table and it immediately resumed proper function.  It wasn't the update but likely a loose connection in my phone.  Anyone else have such problems?  Thanks. ",1,0,1jz8sso,https://www.reddit.com/r/GooglePixel/comments/1jz8sso/frozen_screen_but_rotated_and_volume_buttons/,3.259124517440796,-2.735640287399292,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 14:45:53-05:00,2025-04-14 17:22:21.367580-05:00,post,"Depth effect lock screen
+
+Hello pixelites! 
+
+Does Pixel or android 15 have the depth effect in the lockscreen similar to that iOS has since iOS 16 onwards. Please help me out here. 
+TIA",1,0,1jz824e,https://www.reddit.com/r/GooglePixel/comments/1jz824e/depth_effect_lock_screen/,1.115844488143921,-0.8499709963798523,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 14:21:55-05:00,2025-04-14 17:22:21.367580-05:00,post,"Google Pixel 8 extended warranty, additional repair charges.
+
+Google support sent me this message.   
+""The device is getting fixed for the reason it was sent to repair , mainly the vertical lines and flickering issue is fixed. However during the device diagnosis your camera was seen to be defective.""
+
+This was not an issue I experienced prior to sending in the device nor did the device have any physical damage.
+
+They are wanting to charge me for the camera repair and WILL NOT perform the repair to the screen without repairing the camera as well.
+
+They then told me my only other option was ""walk in"" an then told me the nearest walk in location was 180 miles from me. 
+
+Is this an isolated experience? ",1,0,1jz7h06,https://www.reddit.com/r/GooglePixel/comments/1jz7h06/google_pixel_8_extended_warranty_additional/,4.011882305145264,-3.362870693206787,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 14:00:02-05:00,2025-04-14 17:22:21.367580-05:00,post,"Stock OS vs GrapheneOS (with sandboxed Google apps): Battery, Performance ?
+
+Hey folks,
+
+I'm thinking of picking up the new Pixel 9A, and I'm torn between sticking with the stock OS or using GrapheneOS (with the sandboxed Google apps installed).   
+  
+What would be better in terms of battery life (my main concern) and general performance? Can I still use banking app with the GrapheneOS ?
+
+Thanks in advance!",1,2,1jz6x0i,https://www.reddit.com/r/GooglePixel/comments/1jz6x0i/stock_os_vs_grapheneos_with_sandboxed_google_apps/,3.4671735763549805,-2.88661789894104,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 12:47:00-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel 9 Pro Fold split screen problem
+
+In the last day or two the split screen function seems to have stopped working. When I launch a saved pair of apps, or drag one app to one side to create a new pair, both apps go white screen or transparent and won't activate. Has anyone else had this? I wonder if it's anything to do with the April security update?",1,0,1jz52hc,https://www.reddit.com/r/GooglePixel/comments/1jz52hc/pixel_9_pro_fold_split_screen_problem/,4.727889537811279,-3.7299563884735107,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 12:40:01-05:00,2025-04-14 17:22:21.367580-05:00,post,"Pixel Pro case with ultimate camera protection?
+
+PIXEL 8 PRO CASE RECS?
+
+So I just got myself a refurbished pixel 8 pro- My last case was Poetic - a dual case that clicks in the front and back. I loved how sturdy it was and didnt mind the extra bulk for the sake of camera protection. I disliked the prebuilt screen protector film that came with it, cut it off and fit a tempered glass one on under it instead- worked great.
+
+I really want to protect the camera and have seen the sliding type one but there are so many mixed reviews- and so many sellers. In your honest option what is a good and sturdy case that isnt gonna slip off, is gonna protect my camera and my screen?
+
+( i dislike otterbox because i find it expensive and kinda clunky for what it is, ive also had fit issues in the past)",1,1,1jz4wdu,https://www.reddit.com/r/GooglePixel/comments/1jz4wdu/pixel_pro_case_with_ultimate_camera_protection/,1.5700246095657349,-1.3280717134475708,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 12:12:19-05:00,2025-04-14 17:22:21.367580-05:00,post,"Jumped rom Pixel 5 to Pixel 9a
+
+Just received mine and been toying about and it will replace my P5.
+
+Though it is a bit bigger and heavier it hasn't felt out of place, I am yet to recieve the case I ordered so can't go out and about yet.
+
+That plastic back feels a bit slim and seems a bit flexible and makes the phone feel less solid than the 5. It really looks and feels like and older Iphone with the metal side and the lack of bump is great actually.
+
+I have had been on the 5 for over 4 years and I don't regret my purchase. It will replace it although i didn't trade in the 5 to keep it for outings or holidays where it may be treated a bit rough.
+
+That's my out of the box impressions.",1,2,1jz47wx,https://www.reddit.com/r/GooglePixel/comments/1jz47wx/jumped_rom_pixel_5_to_pixel_9a/,1.3821111917495728,-1.1606372594833374,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 11:50:13-05:00,2025-04-14 17:22:21.367580-05:00,post,"Cause of Pixel 9 instability?
+
+My wife is now on the second Google warranty replacement of her Pixel 9. The original Pixel 9 lasted from late September, 2024, until early March, 2025, when it began spontaneously restarting with great frequency, sometimes going to a screen that offered a choice between trying to restart the phone again and doing a factory data reset. After extensive chatting with Google support and talking with someone at ubreakifix (recommended by Google support), I was advised that the motherboard probably had gone bad and needed replacement. Replacing the phone under warranty was faster, so that’s what we did.
+
+Almost immediately after setting up the replacement Pixel 9, it began exhibiting the same behavior. Google support agreed to a second warranty replacement.
+
+The second Pixel  9 replacement also exhibits the same behavior, but is stable for longer periods. I installed Bitdefender, which reports that all the apples and storage are okay. I also spoke by phone with T-Mobile technical support (our mobile phone company). He ended up suggesting that we take the phone to a T-Mobile store to be looked at (even though we bought the phone directly from Google), which we won’t be able to do until my wife has time.
+
+In the meantime, it occurred to me that perhaps someone here may have knowledge or experience that would help identify and solve whatever’s going on.
+
+Thanks in advance.",1,1,1jz3ocp,https://www.reddit.com/r/GooglePixel/comments/1jz3ocp/cause_of_pixel_9_instability/,3.698796272277832,-3.0506227016448975,0,negative,distilbert-base-uncased-finetuned-sst-2-english
+GooglePixel,2025-04-14 11:37:10-05:00,2025-04-14 17:22:21.367580-05:00,post,"Rotate Lockscreen Wallpaper
+
+Long time iPhone user who switched to a Pixel 9 and trying to recreate as much as I can.  
+Is there an option I can select say 30-50 photos and have those change on each screen wakeup? I could do this with iPhone as a lock screen option",1,0,1jz3cuc,https://www.reddit.com/r/GooglePixel/comments/1jz3cuc/rotate_lockscreen_wallpaper/,2.6538968086242676,-2.277147054672241,0,negative,distilbert-base-uncased-finetuned-sst-2-english

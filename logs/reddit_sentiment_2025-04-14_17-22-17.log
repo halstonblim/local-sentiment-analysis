@@ -1,0 +1,35 @@
+2025-04-14 17:22:17 - INFO - Starting Reddit Sentiment Analysis
+2025-04-14 17:22:17 - INFO - Log file: logs\reddit_sentiment_2025-04-14_17-22-17.log
+2025-04-14 17:22:20 - INFO - Initialized sentiment analyzer with model: distilbert-base-uncased-finetuned-sst-2-english
+2025-04-14 17:22:20 - INFO - Starting processing for r/apple
+2025-04-14 17:22:20 - INFO - 
+🔄 Reddit API Rate Limit Info
+2025-04-14 17:22:20 - INFO - Requests used:      None
+2025-04-14 17:22:20 - INFO - Requests remaining: None
+2025-04-14 17:22:20 - INFO - Resets at:          Unknown
+2025-04-14 17:22:20 - INFO - Fetching 50 posts from r/apple
+2025-04-14 17:22:21 - INFO - Retrieved 5 posts from r/apple
+2025-04-14 17:22:21 - INFO - Analyzed sentiment for 5 posts
+2025-04-14 17:22:21 - INFO - Saved data to: data\apple\posts_2025-04-14.csv
+2025-04-14 17:22:21 - INFO - Successfully processed r/apple
+2025-04-14 17:22:21 - INFO - 
+🔄 Reddit API Rate Limit Info
+2025-04-14 17:22:21 - INFO - Requests used:      1
+2025-04-14 17:22:21 - INFO - Requests remaining: 999.0
+2025-04-14 17:22:21 - INFO - Resets at:          2025-04-14 05:29:59 PM CDT
+2025-04-14 17:22:21 - INFO - Starting processing for r/GooglePixel
+2025-04-14 17:22:21 - INFO - 
+🔄 Reddit API Rate Limit Info
+2025-04-14 17:22:21 - INFO - Requests used:      1
+2025-04-14 17:22:21 - INFO - Requests remaining: 999.0
+2025-04-14 17:22:21 - INFO - Resets at:          2025-04-14 05:29:59 PM CDT
+2025-04-14 17:22:21 - INFO - Fetching 30 posts from r/GooglePixel
+2025-04-14 17:22:21 - INFO - Retrieved 30 posts from r/GooglePixel
+2025-04-14 17:22:21 - INFO - Analyzed sentiment for 30 posts
+2025-04-14 17:22:21 - INFO - Saved data to: data\GooglePixel\posts_2025-04-14.csv
+2025-04-14 17:22:21 - INFO - Successfully processed r/GooglePixel
+2025-04-14 17:22:21 - INFO - 
+🔄 Reddit API Rate Limit Info
+2025-04-14 17:22:21 - INFO - Requests used:      2
+2025-04-14 17:22:21 - INFO - Requests remaining: 998.0
+2025-04-14 17:22:21 - INFO - Resets at:          2025-04-14 05:29:59 PM CDT

@@ -1,0 +1,11 @@
+subreddits:
+  - name: apple
+    include_comments: false
+    post_limit: 50
+  - name: GooglePixel
+    include_comments: false
+    post_limit: 30
+
+output_dir: "data"
+model_name: "distilbert-base-uncased-finetuned-sst-2-english"
+timezone: "US/Central" 

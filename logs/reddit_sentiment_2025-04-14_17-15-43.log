@@ -1,0 +1,31 @@
+2025-04-14 17:15:43 - INFO - Starting Reddit Sentiment Analysis
+2025-04-14 17:15:43 - INFO - Log file: logs\reddit_sentiment_2025-04-14_17-15-43.log
+2025-04-14 17:15:47 - INFO - Initialized sentiment analyzer with model: distilbert-base-uncased-finetuned-sst-2-english
+2025-04-14 17:15:47 - INFO - Starting processing for r/apple
+2025-04-14 17:15:47 - INFO - Requests used:      None
+2025-04-14 17:15:47 - INFO - Requests remaining: None
+2025-04-14 17:15:47 - INFO - Resets at:          Unknown
+
+2025-04-14 17:15:47 - INFO - Fetching 50 posts from r/apple
+2025-04-14 17:15:47 - INFO - Retrieved 5 posts from r/apple
+2025-04-14 17:15:47 - INFO - Analyzed sentiment for 5 posts
+2025-04-14 17:15:47 - INFO - File already exists: data\apple\posts_2025-04-14.csv
+2025-04-14 17:15:47 - INFO - Skipped r/apple (data already exists)
+2025-04-14 17:15:47 - INFO - Requests used:      3
+2025-04-14 17:15:47 - INFO - Requests remaining: 997.0
+2025-04-14 17:15:47 - INFO - Resets at:          2025-04-14 05:19:59 PM CDT
+
+2025-04-14 17:15:47 - INFO - Starting processing for r/GooglePixel
+2025-04-14 17:15:47 - INFO - Requests used:      3
+2025-04-14 17:15:47 - INFO - Requests remaining: 997.0
+2025-04-14 17:15:47 - INFO - Resets at:          2025-04-14 05:19:59 PM CDT
+
+2025-04-14 17:15:47 - INFO - Fetching 30 posts from r/GooglePixel
+2025-04-14 17:15:47 - INFO - Retrieved 30 posts from r/GooglePixel
+2025-04-14 17:15:47 - INFO - Analyzed sentiment for 30 posts
+2025-04-14 17:15:47 - INFO - File already exists: data\GooglePixel\posts_2025-04-14.csv
+2025-04-14 17:15:47 - INFO - Skipped r/GooglePixel (data already exists)
+2025-04-14 17:15:47 - INFO - Requests used:      4
+2025-04-14 17:15:47 - INFO - Requests remaining: 996.0
+2025-04-14 17:15:47 - INFO - Resets at:          2025-04-14 05:19:58 PM CDT
+
