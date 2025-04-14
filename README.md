@@ -61,6 +61,35 @@ The x-axis shows each month, and the y-axis is the **average sentiment score** (
 
 ---
 
+
+### Sentiment scoring validation
+
+Below is a real log sample from `logs/apple_tf-year_n-1000_2025-04-14.log`, showing the number of posts classified and some of the strongest examples detected:
+
+```
+Total posts processed: 1000
+Positive posts: 279
+Negative posts: 721
+Skipped posts (empty): 0
+
+Top 5 Most Positive Posts:
+[1] The M4 Mac Mini is Incredible!
+[2] Review: M4 and M4 Pro Mac minis are probably Apple’s best Mac minis ever
+[3] iPhone roadmap is ‘most ambitious in the product’s history,’ per John Ternus
+[4] The new "Oak" Apple Logo design at soon to open Apple Store in Stockholm, Sweden is beautiful! Design: Henrietta Nyvang
+[5] Apple Passwords’ Generated Strong Password Format
+
+Top 5 Most Negative Posts:
+[1] Gurman: Apple has no ‘meaningful’ AirPods Max plans after USB-C refresh
+[2] Netflix is finally killing off support for 2nd and 3rd generation Apple TVs
+[3] Halide rejected from the App Store because it doesn’t explain why the camera takes photos
+[4] Apple Reportedly Stops Production of FineWoven Accessories
+[5] Epic Games says Apple stalling launch of its game store in Europe
+```
+
+These results demonstrate that the sentiment model generally matches expectations — excitement around new hardware is flagged as positive, while cancellations and rejections are flagged as negative.
+
+
 ## Project Structure
 
 ```bash
